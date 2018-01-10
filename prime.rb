@@ -3,5 +3,3 @@ def prime?(number)
   number % x != 0 
   }
 end
-
-prime?(range)
