@@ -1,8 +1,6 @@
-range = (1..5) 
 def prime?(number) 
-  new_array = range.to_a
-  
-  new_array.select { |x|
+  (2..number-1).to_a.all? { |x|
+  number % x != 0 
   }
 end
 
